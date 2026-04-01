@@ -104,7 +104,7 @@ cd mock-server && npm install && node server.js
 # => Mock server running at http://localhost:3456
 ```
 
-When used as an OpenClaw skill, Claude handles all four steps automatically -- just describe your API or point to a spec file.
+When used as an OpenClaw skill, OpenClaw handles all four steps automatically -- just describe your API or point to a spec file.
 
 ## How It Works
 
@@ -207,7 +207,7 @@ mock-server/
 
 ```
 api-mocker/
-├── SKILL.md                      # Skill definition and Claude workflow
+├── SKILL.md                      # Skill definition and OpenClaw workflow
 ├── README.md
 ├── scripts/
 │   ├── parse_openapi.py          # OpenAPI 3.0 parser ($ref, allOf, oneOf)
