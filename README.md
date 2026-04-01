@@ -2,7 +2,7 @@
 
 > Give me an API spec, get a running mock server in seconds.
 
-A [Claude Code](https://claude.ai/code) skill that generates a fully functional Express.js mock API server from OpenAPI/Swagger specs or verbal descriptions, complete with smart fake data and CRUD operations.
+An [OpenClaw](https://openclawskill.ai) skill that generates a fully functional Express.js mock API server from OpenAPI/Swagger specs or verbal descriptions, complete with smart fake data and CRUD operations.
 
 ## Features
 
@@ -17,7 +17,7 @@ A [Claude Code](https://claude.ai/code) skill that generates a fully functional 
 ## Installation
 
 ```bash
-claude skill add daizhouchen/api-mocker
+npx @anthropic-ai/claw@latest skill add daizhouchen/api-mocker
 ```
 
 ## How It Works
